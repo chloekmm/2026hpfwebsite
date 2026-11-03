@@ -14,7 +14,7 @@ It's a plain static site: HTML pages, one stylesheet, a few lines of JavaScript.
 | `education.html` | Speaker events, FILC |
 | `j-term.html` | J-Term trip: applications, 2026 photos, 2023 and 2013 archive |
 | `events.html` | Event posters and the 2025–26 recap |
-| `get-involved.html` | Interest form, mailing list, Instagram, contact |
+| `get-involved.html` | GroupMe, Instagram, contact |
 | `404.html` | Not-found page |
 
 Images are in `assets/img/` and styles are in `assets/css/style.css`. All placeholder content has been filled in.
