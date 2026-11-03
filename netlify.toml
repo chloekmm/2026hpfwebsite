@@ -1,0 +1,35 @@
+# Netlify config: plain static site, no build step.
+[build]
+  publish = "."
+  command = ""
+
+# Old Weebly URLs -> new pages, so existing links keep working.
+[[redirects]]
+  from = "/what-is-hpf.html"
+  to = "/about.html"
+  status = 301
+[[redirects]]
+  from = "/executive-board.html"
+  to = "/about.html#board"
+  status = 301
+[[redirects]]
+  from = "/activities.html"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/service.html"
+  to = "/j-term.html"
+  status = 301
+[[redirects]]
+  from = "/service1.html"
+  to = "/j-term.html"
+  status = 301
+[[redirects]]
+  from = "/calendar.html"
+  to = "/events.html"
+  status = 301
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
