@@ -191,7 +191,7 @@ a.card:hover { transform: translateY(-4px); box-shadow: 0 14px 34px rgba(11,31,7
 /* Poster wall */
 .posters { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
 .posters figure { margin: 0; }
-.posters img { border-radius: 14px; border: 1px solid var(--line); width: 100%; aspect-ratio: 4 / 5; object-fit: cover; background: #fff; }
+.posters img { border-radius: 14px; border: 1px solid var(--line); width: 100%; height: auto; background: #fff; }
 .posters figcaption { font-size: .9rem; margin-top: 10px; color: var(--muted); }
 .posters figcaption strong { display: block; color: var(--ink); }
 
@@ -262,3 +262,13 @@ a.card:hover { transform: translateY(-4px); box-shadow: 0 14px 34px rgba(11,31,7
 .center { text-align: center; }
 .center .lead { margin-left: auto; margin-right: auto; }
 .mt-40 { margin-top: 40px; }
+
+/* Board roles */
+.board .card .img { aspect-ratio: 3 / 2; background: linear-gradient(135deg, #e3eafb, #fdf3c8); }
+.board .card h3 { font-size: 1.12rem; margin-bottom: 6px; }
+.board .card p { font-size: .9rem; }
+.role { display: block; font-size: .74rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--red); margin-bottom: 6px; }
+
+/* Past events list */
+.events-list li { display: grid; grid-template-columns: 110px 1fr; gap: 16px; align-items: baseline; }
+.events-list time { font-weight: 700; color: var(--blue); font-size: .95rem; }

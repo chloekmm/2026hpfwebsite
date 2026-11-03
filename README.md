@@ -17,7 +17,7 @@ It's a plain static site: HTML pages, one stylesheet, a few lines of JavaScript.
 | `get-involved.html` | Interest form, mailing list, Instagram, contact |
 | `404.html` | Not-found page |
 
-Images are in `assets/img/` and styles are in `assets/css/style.css`. Search the pages for `TODO` to find spots waiting on content (current executive board, J-Term application link, Cultural Rhythms 2026 video).
+Images are in `assets/img/` and styles are in `assets/css/style.css`. Search the pages for `TODO` to find spots waiting on content (Cultural Rhythms 2026 video, 2026 J-Term reflections).
 
 ## Preview locally
 
